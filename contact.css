@@ -1,0 +1,73 @@
+.navbar {
+  display: flex;
+  font-family:"Noto Sans JP", sans-serif;
+  align-items: center;
+  background-color:rgb(181, 237, 252);
+  height: 50px; 
+  width: 100vw;
+  position: fixed;
+  z-index: 999;
+}
+  
+.navbar a {
+  color:  rgb(38, 44, 58);
+  background-color:rgb(181, 237, 252);
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  position: relative;
+}
+*{
+  background-color: rgb(38, 44, 58);
+}
+.navbar a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 100%;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+}
+.navbar a:hover{
+  color: black;
+}
+
+.navbar a:hover::after {
+  background-color:black;
+}
+
+*{
+  background-color: rgb(131, 156, 153);
+}
+.buttons{
+  font-size: 70px;
+  display: flex;
+  position:absolute;
+  top: 350px;
+  left: 300px;
+
+ }
+.icon{
+  width: 10vw;
+}
+.gmail{
+  font-size: 30px;
+  position: absolute;
+  top: 300px;
+  left: 320px;
+
+}
+.phone{
+  font-size:30px ;
+  position: absolute;
+  top: 450px;
+  left: 280px;
+}
+  .img{
+    position: absolute;
+    left: 750px;
+    bottom: 0%;
+
+  }

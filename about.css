@@ -1,0 +1,72 @@
+.navbar {
+    display: flex;
+    font-family:"Noto Sans JP", sans-serif;
+    align-items: center;
+    background-color:rgb(181, 237, 252);
+    height: 50px; 
+    width: 100vw;
+    position: fixed;
+    z-index: 999;
+  }
+    
+  .navbar a {
+    color:  rgb(38, 44, 58);
+    background-color:rgb(181, 237, 252);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    position: relative;
+  }
+  *{
+    background-color: rgb(38, 44, 58);
+  }
+  .navbar a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+  }
+  .navbar a:hover{
+    color: black;
+  }
+ 
+  .navbar a:hover::after {
+    background-color:black;
+  }
+  .about{
+    font-size: 45px;
+    margin-left: 18%;
+    margin-bottom: 20px;
+    font-family: "Poetsen One", sans-serif;
+    color:rgb(124, 165, 176) ;
+  }
+  .paragraph{
+    font-family: "Noto Sans JP", sans-serif;
+    width: 50%;
+    font-size: larger;
+    color: bisque;
+    font-family: "Roboto Mono", monospace;
+    margin-left: 140px;
+  }
+  .img{
+    position: absolute;
+    left: 60%;
+    margin-top: 800px;
+  }
+  .about{
+    padding-top: 100px;
+  }
+  ul{
+    margin-left: 60px;
+  }
+  .parag{
+    display: flex;
+  }
+  .parag img{
+    margin-left: 50px;
+    margin-top: 70px;
+  }
